@@ -67,7 +67,7 @@ AddService    = %ServiceName%,,MiniFilter.Service
 
 [DefaultUninstall]
 DelFiles      = MiniFilter.DriverFiles
-DelReg        = MiniFilter.Registry
+;; DelReg        = MiniFilter.Registry
 
 [DefaultUninstall.Services]
 DelService    = %ServiceName%,0x200    ; Ensure service is stopped before deleting.
